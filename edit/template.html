@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="36cc5e78-8c4f-4b7e-a7d3-61e57dff481e"></script>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>/* Origin Design System — Webfonts
+   Gopher (headline / display), DM Sans (body), Epilogue (Google/social alternate for Gopher).
+   Paths are relative to this file. */
+
+/* ---------- Gopher: primary headline typeface ---------- */
+@font-face {
+  font-family: "Gopher";
+  src: url("70a8da9b-9b38-4218-b800-cefac241726b") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("290e4e7c-67c8-4aff-af89-7afd95ca3d38") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("4688ede2-123b-488f-8c17-bda2224ab14a") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("0200d6f6-add1-41af-8478-64972b6b0aff") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("81a060d8-1379-4d27-918b-2d302562ec07") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("512379be-9878-45c5-b6cd-0dabebb0e1e5") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("95d62177-b25f-4afe-9b14-11535582bf9a") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("5bea0997-6a1b-46d2-8589-4e00406dd3cb") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- DM Sans: body typeface ---------- */
+@font-face {
+  font-family: "DM Sans";
+  src: url("28ed771c-4f92-4e7d-aece-ac397dcccccc") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("375f3fd4-b5e7-4537-b0bb-8e0b6dbfe242") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("0a2452c4-3a4f-435a-bd21-ab45bed9419f") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("d4d04a1d-1dbb-4f60-baae-edcc0d3cd7ad") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("30953dcf-4145-4275-a979-7bddbac926a2") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- Epilogue: Google/social alternate for Gopher ---------- */
+@font-face {
+  font-family: "Epilogue";
+  src: url("e627be5e-9bc7-471a-b688-cc57d172a043") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+</style>
+  <style>/* Origin Design System — global stylesheet entry point.
+   Consumers link THIS one file. Keep it as @import lines only. */
+
+/* Origin Design System — Webfonts
+   Gopher (headline / display), DM Sans (body), Epilogue (Google/social alternate for Gopher).
+   Paths are relative to this file. */
+
+/* ---------- Gopher: primary headline typeface ---------- */
+@font-face {
+  font-family: "Gopher";
+  src: url("70a8da9b-9b38-4218-b800-cefac241726b") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("290e4e7c-67c8-4aff-af89-7afd95ca3d38") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("4688ede2-123b-488f-8c17-bda2224ab14a") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("0200d6f6-add1-41af-8478-64972b6b0aff") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("81a060d8-1379-4d27-918b-2d302562ec07") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("512379be-9878-45c5-b6cd-0dabebb0e1e5") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("95d62177-b25f-4afe-9b14-11535582bf9a") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gopher";
+  src: url("5bea0997-6a1b-46d2-8589-4e00406dd3cb") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- DM Sans: body typeface ---------- */
+@font-face {
+  font-family: "DM Sans";
+  src: url("28ed771c-4f92-4e7d-aece-ac397dcccccc") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("375f3fd4-b5e7-4537-b0bb-8e0b6dbfe242") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("0a2452c4-3a4f-435a-bd21-ab45bed9419f") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("d4d04a1d-1dbb-4f60-baae-edcc0d3cd7ad") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("30953dcf-4145-4275-a979-7bddbac926a2") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- Epilogue: Google/social alternate for Gopher ---------- */
+@font-face {
+  font-family: "Epilogue";
+  src: url("e627be5e-9bc7-471a-b688-cc57d172a043") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Origin Design System — Color tokens
+   Lead with Coral. Pearl is the default digital background.
+   Ruby is the default body-copy color on light backgrounds.
+   Values mirror the production site theme (--o-* / ruby-theme). */
+
+:root {
+  /* ---------- Core palette: Coral, Pearl, Light Pink, Tan, Light Blue ----------
+     Lead with Coral. Pearl is the default digital background. */
+  --color-coral: #eb5e54;        /* primary brand color — lead with this */
+  --color-pearl: #fceee5;         /* default digital background */
+  --color-light-pink: #ffdecf;
+  --color-tan: #faba99;
+  --color-light-blue: #c2cfe3;
+
+  /* ---------- Supporting: Ruby, Blush, Coral-Text ---------- */
+  --color-ruby: #79242f;          /* preferred body-copy color on light/neutral */
+  --color-blush: #ed806b;
+  --color-coral-text: #e05345;    /* WEB/APP ACCESSIBILITY FALLBACK ONLY. Darker coral used solely in
+                                     digital UI where Coral (#eb5e54) fails WCAG/ADA contrast on Pearl or
+                                     Light Pink. NOT a brand color. Never use in print, email, social,
+                                     decks, or logos, or anywhere Coral already passes. If Coral passes, use Coral. */
+
+  /* ---------- Neutrals: White, Near-Black ---------- */
+  --color-white: #ffffff;
+  --color-near-black: #241c17;    /* brand "black" */
+
+  /* ---------- Extended palette (ILLUSTRATION ONLY — not for UI, backgrounds, or data) ----------
+     Every color outside Core / Supporting / Neutrals lives here. */
+  --color-mustard: #e8963b;       /* abstract illustration / waves accent only */
+  --color-cream: #fcf2e0;         /* pair only with Mustard */
+  --color-true-coral: #da675a;    /* coral hover/active tint used on the live site */
+  --color-brown: #803321;         /* deep coral-brown line art */
+  --color-blue: #26304a;          /* deep navy */
+  --color-ext-plum: #573263;
+  --color-ext-rose: #d98f8a;
+  --color-ext-sand: #f2e5d1;      /* cream line-art stroke inside coral icons */
+
+  /* ---------- Semantic surfaces ---------- */
+  --surface-page: var(--color-pearl);     /* default digital background */
+  --surface-card: var(--color-white);
+  --surface-raised: var(--color-white);
+  --surface-pink: var(--color-light-pink);
+  --surface-tan: var(--color-tan);
+  --surface-blue: var(--color-light-blue);
+  --surface-ruby: var(--color-ruby);      /* dark section background */
+  --surface-coral: var(--color-coral);
+
+  /* ---------- Semantic text ---------- */
+  --text-body: var(--color-ruby);          /* body copy on light backgrounds */
+  --text-heading: var(--color-coral-text);  /* headings/buttons on Pearl & Light Pink */
+  --text-heading-on-light: var(--color-coral);
+  --text-muted: #9a6f63;                    /* softened ruby for secondary text */
+  --text-on-coral: var(--color-white);      /* min 24px / bold per accessibility */
+  --text-on-ruby: var(--color-pearl);       /* body on Ruby background */
+  --text-on-ruby-heading: var(--color-tan); /* headings/links on Ruby background */
+  --text-inverse: var(--color-white);
+
+  /* ---------- Semantic lines / borders ---------- */
+  --border-soft: rgba(121, 36, 47, 0.14);   /* ruby @ low alpha — hairlines on light */
+  --border-coral: var(--color-coral);
+  --border-strong: var(--color-near-black);
+
+  /* ---------- Focus ---------- */
+  --focus-ring: 0 0 0 3px rgba(235, 94, 84, 0.35);
+}
+
+/* Origin Design System — Typography tokens
+   Headlines: Gopher Medium (reverse-contrast geometric sans, slightly retro).
+   Body: DM Sans. Social/Google alternate for Gopher: Epilogue.
+   Type scale mirrors the production site (responsive H1–H6). */
+
+:root {
+  /* ---------- Families ---------- */
+  --font-display: "Gopher", "Epilogue", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-alt: "Epilogue", "Gopher", sans-serif; /* Google Docs / Slides / social fallback */
+
+  /* ---------- Weights ---------- */
+  --weight-body: 400;
+  --weight-body-medium: 500;
+  --weight-body-bold: 700;
+  --weight-display: 500;       /* Gopher Medium is the default headline weight */
+  --weight-display-bold: 700;  /* expressive / web headings */
+  --weight-display-black: 800; /* expressive typography only */
+
+  /* ---------- Display / heading scale (desktop) ----------
+     Gopher, weight 500–700, line-height ~1.1–1.3, tight leading on large sizes. */
+  --text-hero: 64px;     /* H0 — hero */
+  --text-h1: 48px;
+  --text-h2: 42px;
+  --text-h3: 30px;
+  --text-h4: 28px;
+  --text-h5: 22px;
+  --text-h6: 18px;
+
+  --leading-display: 1.1;   /* tight leading for large Gopher */
+  --leading-heading: 1.3;
+
+  /* ---------- Body scale ---------- */
+  --text-lead: 20px;     /* intro paragraphs */
+  --text-body-lg: 18px;
+  --text-body: 16px;     /* P1 */
+  --text-body-sm: 14px;  /* P2 */
+  --text-caption: 13px;
+  --text-eyebrow: 13px;  /* uppercase label / badge */
+
+  --leading-body: 1.6;   /* DM Sans +20% leading */
+  --leading-tight: 1.4;
+
+  --tracking-eyebrow: 0.08em;
+  --tracking-tight: -0.01em;
+}
+
+/* Convenience helpers (optional; tokens above are the source of truth) */
+.o-display { font-family: var(--font-display); font-weight: var(--weight-display); line-height: var(--leading-display); color: var(--text-heading); }
+.o-body { font-family: var(--font-body); font-weight: var(--weight-body); line-height: var(--leading-body); color: var(--text-body); }
+.o-eyebrow {
+  font-family: var(--font-body);
+  font-weight: var(--weight-body-bold);
+  font-size: var(--text-eyebrow);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+}
+
+/* Origin Design System — Spacing, radii, shadows, layout
+   The live site favors generous spacing, soft 8–24px radii, and gentle shadows.
+   Backgrounds stay warm (Pearl); cards are white with a soft shadow, rarely a border. */
+
+:root {
+  /* ---------- Spacing scale (4px base) ---------- */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Section rhythm */
+  --section-pad-y: clamp(56px, 8vw, 120px);
+  --gutter: clamp(20px, 4vw, 48px); /* @kind spacing */
+
+  /* ---------- Corner radii ----------
+     8px is the workhorse (buttons, inputs); cards use 16–24px; pills for chips. */
+  --radius-xs: 4px;
+  --radius-sm: 8px;       /* buttons, inputs, small controls */
+  --radius-md: 12px;
+  --radius-lg: 16px;      /* cards */
+  --radius-xl: 24px;      /* feature cards, media frames */
+  --radius-2xl: 40px;     /* large hero / image wells */
+  --radius-pill: 999px;   /* badges, chips, avatar */
+  --radius-round: 50%;
+
+  /* ---------- Shadows (soft, warm-tinted) ---------- */
+  --shadow-xs: 0 1px 2px rgba(36, 28, 23, 0.06);
+  --shadow-sm: 0 2px 8px rgba(36, 28, 23, 0.08);
+  --shadow-md: 0 8px 24px rgba(36, 28, 23, 0.10);
+  --shadow-lg: 0 16px 48px rgba(36, 28, 23, 0.12);
+  --shadow-coral: 0 12px 32px rgba(235, 94, 84, 0.22);
+
+  /* ---------- Containers (mirrors site widths) ---------- */
+  --container-sm: 900px;
+  --container-md: 1100px;
+  --container-lg: 1288px;
+  --container-xl: 1400px;
+
+  /* ---------- Motion ----------
+     Site uses simple linear/eased color + background transitions (~0.2s). No bounces. */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --dur-fast: 0.15s; /* @kind other */
+  --dur-base: 0.2s; /* @kind other */
+  --dur-slow: 0.35s; /* @kind other */
+  --transition-color: color var(--dur-base) linear, background-color var(--dur-base) linear, border-color var(--dur-base) linear;
+}
+
+/* Origin Design System — base element styles + a few brand utilities.
+   Sets the warm Pearl background, DM Sans body, Gopher coral headings. */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  color: var(--text-body);
+  background-color: var(--surface-page);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headings — Gopher, coral, tight leading. Use o-h* classes for the exact site scale. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: var(--weight-display);
+  line-height: var(--leading-heading);
+  color: var(--text-heading);
+  margin: 0 0 var(--space-4);
+  text-wrap: balance;
+}
+
+p { margin: 0 0 var(--space-4); text-wrap: pretty; }
+
+a { color: var(--color-coral-text); text-decoration: none; transition: var(--transition-color); }
+a:hover { color: var(--color-ruby); }
+
+strong, b { font-weight: var(--weight-body-bold); }
+em, i { font-style: italic; }
+
+img { max-width: 100%; display: block; }
+
+:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-xs); }
+
+/* ---------- Heading scale (matches the production site, responsive) ---------- */
+.o-h1 { font-family: var(--font-display); color: var(--text-heading-on-light); font-weight: var(--weight-display); line-height: 1.2; font-size: var(--text-h1); margin: 0 0 var(--space-4); }
+.o-h2 { font-family: var(--font-display); color: var(--text-heading-on-light); font-weight: var(--weight-display); line-height: 1.25; font-size: var(--text-h2); margin: 0 0 var(--space-4); }
+.o-h3 { font-family: var(--font-display); color: var(--text-heading-on-light); font-weight: var(--weight-display); line-height: 1.3; font-size: var(--text-h3); margin: 0 0 var(--space-3); }
+.o-h4 { font-family: var(--font-display); color: var(--text-heading-on-light); font-weight: var(--weight-display); line-height: 1.3; font-size: var(--text-h4); margin: 0 0 var(--space-3); }
+.o-h5 { font-family: var(--font-display); color: var(--text-heading-on-light); font-weight: var(--weight-display); line-height: 1.3; font-size: var(--text-h5); margin: 0 0 var(--space-2); }
+.o-h6 { font-family: var(--font-display); color: var(--text-heading-on-light); font-weight: var(--weight-display); line-height: 1.3; font-size: var(--text-h6); margin: 0 0 var(--space-2); }
+.o-hero { font-family: var(--font-display); color: var(--text-heading-on-light); font-weight: var(--weight-display); line-height: 1.05; font-size: var(--text-hero); letter-spacing: var(--tracking-tight); margin: 0 0 var(--space-5); }
+
+.o-lead { font-size: var(--text-lead); line-height: var(--leading-body); color: var(--text-body); }
+
+/* Brand container */
+.o-container { width: 100%; max-width: var(--container-lg); margin-inline: auto; padding-inline: var(--gutter); }
+
+/* Origin Design System — component styles.
+   Interactive states (hover/focus/disabled) live here so JSX wrappers stay thin.
+   Mirrors the production .o-button system: solid fills invert to outline on hover,
+   8px radius, DM Sans, soft color transitions. */
+
+/* ============================ BUTTON ============================ */
+.o-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-family: var(--font-body);
+  font-weight: var(--weight-body-bold);
+  text-align: center;
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-decoration: none;
+  transition: var(--transition-color);
+  white-space: nowrap;
+  line-height: 1.2;
+}
+.o-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.o-btn[disabled], .o-btn.is-disabled { opacity: 0.45; pointer-events: none; }
+
+/* sizes */
+.o-btn--sm { min-width: 120px; padding: 8px 20px; font-size: 16px; }
+.o-btn--md { min-width: 150px; padding: 11px 26px; font-size: 17px; }
+.o-btn--lg { min-width: 180px; padding: 13px 30px; font-size: 18px; }
+.o-btn--full { width: 100%; }
+.o-btn--icon-only { min-width: 0; padding: 11px; border-radius: var(--radius-sm); }
+
+/* solid (fills, invert to outline on hover) */
+.o-btn--solid-coral { background: var(--color-coral); border-color: var(--color-coral); color: var(--color-white); }
+.o-btn--solid-coral:hover { background: transparent; color: var(--color-coral-text); }
+.o-btn--solid-blue { background: var(--color-blue); border-color: var(--color-blue); color: var(--color-white); }
+.o-btn--solid-blue:hover { background: transparent; color: var(--color-blue); }
+.o-btn--solid-brown { background: var(--color-brown); border-color: var(--color-brown); color: var(--color-white); }
+.o-btn--solid-brown:hover { background: transparent; color: var(--color-brown); }
+.o-btn--solid-white { background: var(--color-white); border-color: var(--color-white); color: var(--color-coral-text); }
+.o-btn--solid-white:hover { background: transparent; color: var(--color-white); }
+
+/* hollow (outline, fills on hover) */
+.o-btn--hollow-coral { background: transparent; border-color: var(--color-coral); color: var(--color-coral-text); }
+.o-btn--hollow-coral:hover { background: var(--color-coral); color: var(--color-white); }
+.o-btn--hollow-blue { background: transparent; border-color: var(--color-blue); color: var(--color-blue); }
+.o-btn--hollow-blue:hover { background: var(--color-blue); color: var(--color-white); }
+.o-btn--hollow-brown { background: transparent; border-color: var(--color-brown); color: var(--color-brown); }
+.o-btn--hollow-brown:hover { background: var(--color-brown); color: var(--color-white); }
+.o-btn--hollow-white { background: transparent; border-color: var(--color-white); color: var(--color-white); }
+.o-btn--hollow-white:hover { background: var(--color-white); color: var(--color-coral-text); }
+
+/* ghost / text */
+.o-btn--ghost { background: transparent; border-color: transparent; color: var(--color-coral-text); min-width: 0; padding-inline: var(--space-3); }
+.o-btn--ghost:hover { color: var(--color-ruby); }
+
+/* ============================ BADGE / EYEBROW ============================ */
+.o-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-weight: var(--weight-body-bold);
+  font-size: var(--text-body-sm);
+  line-height: 1.2;
+}
+.o-badge--coral { background: var(--color-coral); color: var(--color-white); }
+.o-badge--pink { background: var(--color-light-pink); color: var(--color-ruby); }
+.o-badge--tan { background: var(--color-tan); color: var(--color-ruby); }
+.o-badge--blue { background: var(--color-light-blue); color: var(--color-blue); }
+.o-badge--cream { background: var(--color-cream); color: var(--color-coral-text); }
+.o-badge--ruby { background: var(--color-ruby); color: var(--color-pearl); }
+.o-badge--outline { background: transparent; border: 1.5px solid var(--color-coral); color: var(--color-coral-text); }
+
+.o-eyebrow-label {
+  font-family: var(--font-body);
+  font-weight: var(--weight-body-bold);
+  font-size: var(--text-eyebrow);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-coral-text);
+}
+
+/* ============================ TAG / CHIP ============================ */
+.o-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 7px 14px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-size: var(--text-body-sm);
+  font-weight: var(--weight-body-medium);
+  background: var(--color-white);
+  color: var(--color-ruby);
+  border: 1.5px solid var(--border-soft);
+  cursor: default;
+  transition: var(--transition-color);
+}
+.o-tag--selectable { cursor: pointer; }
+.o-tag--selectable:hover { border-color: var(--color-coral); color: var(--color-coral-text); }
+.o-tag--active { background: var(--color-coral); border-color: var(--color-coral); color: var(--color-white); }
+.o-tag__remove { display: inline-flex; cursor: pointer; opacity: 0.7; }
+.o-tag__remove:hover { opacity: 1; }
+
+/* ============================ CARD ============================ */
+.o-card {
+  background: var(--surface-card);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow var(--dur-base) var(--ease-standard), transform var(--dur-base) var(--ease-standard);
+}
+.o-card--pad { padding: var(--space-6); }
+.o-card--hover:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.o-card--flat { box-shadow: none; border: 1.5px solid var(--border-soft); }
+.o-card--pink { background: var(--color-light-pink); }
+.o-card--tan { background: var(--color-tan); }
+.o-card--blue { background: var(--color-light-blue); }
+.o-card--ruby { background: var(--color-ruby); color: var(--color-pearl); }
+.o-card--coral { background: var(--color-coral); color: var(--color-white); }
+.o-card__media { display: block; width: 100%; object-fit: cover; }
+
+/* ============================ AVATAR ============================ */
+.o-avatar { border-radius: var(--radius-round); object-fit: cover; background: var(--color-light-pink); display: inline-block; flex: none; }
+.o-avatar--ring { box-shadow: 0 0 0 3px var(--color-pearl), 0 0 0 5px var(--color-coral); }
+
+/* ============================ BRAND ICON (duotone badge) ============================ */
+.o-brand-icon { display: inline-block; border-radius: var(--radius-round); }
+.o-brand-icon img, .o-brand-icon svg { display: block; width: 100%; height: 100%; }
+
+/* ============================ FORM CONTROLS ============================ */
+.o-field { display: flex; flex-direction: column; gap: var(--space-2); }
+.o-label { font-family: var(--font-body); font-weight: var(--weight-body-bold); font-size: var(--text-body-sm); color: var(--color-ruby); }
+.o-hint { font-size: var(--text-caption); color: var(--text-muted); }
+.o-hint--error { color: var(--color-coral-text); }
+
+.o-input, .o-textarea, .o-select {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  color: var(--color-ruby);
+  background: var(--color-white);
+  border: 1.5px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  width: 100%;
+  transition: var(--transition-color), box-shadow var(--dur-base) var(--ease-standard);
+}
+.o-input::placeholder, .o-textarea::placeholder { color: var(--text-muted); }
+.o-input:hover, .o-textarea:hover, .o-select:hover { border-color: var(--color-tan); }
+.o-input:focus, .o-textarea:focus, .o-select:focus { outline: none; border-color: var(--color-coral); box-shadow: var(--focus-ring); }
+.o-input--error, .o-textarea--error { border-color: var(--color-coral); }
+.o-input[disabled], .o-textarea[disabled], .o-select[disabled] { background: var(--color-pearl); opacity: 0.7; cursor: not-allowed; }
+.o-textarea { resize: vertical; min-height: 110px; line-height: var(--leading-body); }
+
+.o-select-wrap { position: relative; display: block; }
+.o-select { appearance: none; padding-right: 44px; cursor: pointer; }
+.o-select-wrap__chevron { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--color-coral); }
+
+/* checkbox + radio */
+.o-choice { display: inline-flex; align-items: center; gap: var(--space-3); cursor: pointer; font-family: var(--font-body); color: var(--color-ruby); }
+.o-choice input { position: absolute; opacity: 0; width: 0; height: 0; }
+.o-choice__box {
+  width: 22px; height: 22px; flex: none;
+  border: 1.5px solid var(--color-tan);
+  background: var(--color-white);
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: var(--transition-color);
+  color: var(--color-white);
+}
+.o-choice__box--checkbox { border-radius: var(--radius-xs); }
+.o-choice__box--radio { border-radius: var(--radius-round); }
+.o-choice__box svg { opacity: 0; transition: opacity var(--dur-fast) linear; }
+.o-choice__box--radio::after { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--color-white); opacity: 0; transition: opacity var(--dur-fast) linear; }
+.o-choice input:checked + .o-choice__box { background: var(--color-coral); border-color: var(--color-coral); }
+.o-choice input:checked + .o-choice__box svg { opacity: 1; }
+.o-choice input:checked + .o-choice__box--radio::after { opacity: 1; }
+.o-choice input:focus-visible + .o-choice__box { box-shadow: var(--focus-ring); }
+.o-choice input:disabled ~ * { opacity: 0.5; }
+
+/* switch */
+.o-switch { position: relative; display: inline-flex; align-items: center; cursor: pointer; }
+.o-switch input { position: absolute; opacity: 0; width: 0; height: 0; }
+.o-switch__track { width: 46px; height: 26px; border-radius: var(--radius-pill); background: var(--color-tan); transition: var(--transition-color); }
+.o-switch__thumb { position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: var(--color-white); box-shadow: var(--shadow-xs); transition: transform var(--dur-base) var(--ease-standard); }
+.o-switch input:checked + .o-switch__track { background: var(--color-coral); }
+.o-switch input:checked + .o-switch__track + .o-switch__thumb { transform: translateX(20px); }
+.o-switch input:focus-visible + .o-switch__track { box-shadow: var(--focus-ring); }
+
+</style>
+  <script src="4109ac81-8b24-4a40-9b96-afc956407c38"></script>
+  <style>
+    @keyframes shake { 0%,100%{transform:translateX(0)} 20%,60%{transform:translateX(-5px)} 40%,80%{transform:translateX(5px)} }
+    @keyframes popIn { 0%{transform:scale(0.7);opacity:0} 60%{transform:scale(1.1)} 100%{transform:scale(1);opacity:1} }
+    @keyframes fadeUp { from{opacity:1;transform:translateY(0)} to{opacity:0;transform:translateY(-28px)} }
+    @keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.06)} }
+    @keyframes blink { 0%,100%{opacity:0.4} 50%{opacity:0} }
+    body { margin:0; background:#FCEEE5; }
+    *, *::before, *::after { box-sizing:border-box; }
+    a { color:#EB5E54; } a:hover { color:#79242F; }
+    .hex-btn { transition:filter 0.1s, transform 0.12s; cursor:pointer; border:none; padding:0; }
+    .hex-btn:hover { filter:brightness(0.88); }
+    .hex-btn:active { transform:scale(0.94); filter:brightness(0.82); }
+    .word-chip { animation:popIn 0.25s ease; }
+    .ctrl-btn { transition:background 0.15s, color 0.15s, transform 0.1s; }
+    .ctrl-btn:active { transform:scale(0.94); }
+  </style>
+</helmet>
+
+<div style="min-height:100dvh; background:#FCEEE5; display:flex; flex-direction:column; align-items:center; padding:20px 16px 56px; font-family:'DM Sans',sans-serif;">
+
+  <div style="text-align:center; margin-bottom:16px; max-width:400px; width:100%;">
+    <h1 style="font-family:'Gopher','DM Sans',sans-serif; font-size:clamp(22px,5.5vw,38px); color:#EB5E54; margin:0 0 5px; line-height:1.1; letter-spacing:-0.2px;">{{ title }}</h1>
+    <p style="color:#EB5E54; font-size:14px; font-weight:700; margin:0 0 4px; line-height:1.4;">{{ banner }}</p>
+    <p style="color:#79242F; font-size:13px; margin:0; opacity:0.75; line-height:1.5;">Make words using the letters. <strong>Center letter</strong> must be in every word. Words must be 4+ letters.</p>
+  </div>
+
+  <div style="display:flex; align-items:center; gap:14px; margin-bottom:14px;">
+    <div style="font-size:32px; font-weight:800; color:#79242F; font-family:'Gopher','DM Sans',sans-serif; line-height:1; min-width:48px; text-align:right;">{{ score }}</div>
+    <div>
+      <div style="font-size:11px; font-weight:700; color:#EB5E54; letter-spacing:1px; text-transform:uppercase; margin-bottom:4px;">{{ rank }}</div>
+      <div style="width:150px; height:6px; background:#FFDECF; border-radius:100px; overflow:hidden;">
+        <div style="height:100%; border-radius:100px; background:#EB5E54; width:{{ rankPct }}%; transition:width 0.5s ease;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="height:36px; display:flex; align-items:center; justify-content:center; margin-bottom:6px;">
+    <sc-if value="{{ showFlash }}" hint-placeholder-val="{{ false }}">
+      <div style="background:{{ flashBg }}; color:{{ flashColor }}; font-size:14px; font-weight:700; padding:5px 18px; border-radius:100px; font-family:'DM Sans',sans-serif; animation:popIn 0.2s ease;">{{ flashMsg }}</div>
+    </sc-if>
+  </div>
+
+  <div style="min-height:56px; display:flex; align-items:center; justify-content:center; gap:1px; margin-bottom:18px; padding:0 16px; max-width:340px; flex-wrap:wrap;">
+    <sc-for list="{{ currentLetters }}" as="cl">
+      <span style="font-size:30px; font-weight:700; font-family:'Gopher','DM Sans',sans-serif; color:{{ cl.color }}; line-height:1.1; letter-spacing:0.5px;">{{ cl.letter }}</span>
+    </sc-for>
+    <sc-if value="{{ showCursor }}" hint-placeholder-val="{{ true }}">
+      <span style="display:inline-block; width:2px; height:28px; background:#79242F; opacity:0.3; border-radius:2px; animation:blink 1s step-end infinite; margin-left:2px; vertical-align:middle;"></span>
+    </sc-if>
+  </div>
+
+  <div style="position:relative; width:228px; height:220px; margin-bottom:24px;">
+    <sc-for list="{{ hexCells }}" as="hex">
+      <button class="hex-btn" sc-camel-on-click="{{ hex.onClick }}" aria-label="{{ hex.letter }}" style="{{ hex.style }}">
+        <span style="font-size:23px; font-weight:800; color:{{ hex.textColor }}; font-family:'Gopher','DM Sans',sans-serif; pointer-events:none; letter-spacing:-0.5px;">{{ hex.letter }}</span>
+      </button>
+    </sc-for>
+  </div>
+
+  <div style="display:flex; gap:10px; align-items:center; margin-bottom:24px;">
+    <button class="ctrl-btn" sc-camel-on-click="{{ onDelete }}" style="background:white; border:2px solid #FFDECF; border-radius:100px; padding:10px 22px; font-size:14px; font-weight:700; color:#79242F; font-family:'DM Sans',sans-serif;">Delete</button>
+    <button class="ctrl-btn" sc-camel-on-click="{{ onShuffle }}" style="background:white; border:2px solid #FFDECF; border-radius:100px; width:44px; height:44px; display:flex; align-items:center; justify-content:center; font-size:20px; color:#79242F; font-family:'DM Sans',sans-serif;" title="Shuffle">
+      <svg width="18" height="18" sc-camel-view-box="0 0 18 18" fill="none"><path d="M2 5h10M2 13h10M9 2l4 3-4 3M9 10l4 3-4 3" stroke="#79242F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    </button>
+    <button class="ctrl-btn" sc-camel-on-click="{{ onEnter }}" style="background:#EB5E54; border:none; border-radius:100px; padding:10px 22px; font-size:14px; font-weight:700; color:#FCEEE5; font-family:'DM Sans',sans-serif;">Enter</button>
+  </div>
+
+  <div style="width:100%; max-width:380px; background:white; border-radius:20px; padding:18px 20px; box-shadow:0 2px 24px rgba(235,94,84,0.1);">
+    <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+      <span style="font-size:11px; font-weight:700; color:#EB5E54; letter-spacing:1px; text-transform:uppercase;">{{ foundCount }} words found</span>
+      <sc-if value="{{ showPangramHint }}" hint-placeholder-val="{{ false }}">
+        <span style="font-size:11px; color:#79242F; opacity:0.5;">· Find the Pangram!</span>
+      </sc-if>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; min-height:28px;">
+      <sc-if value="{{ noWordsFound }}" hint-placeholder-val="{{ false }}">
+        <span style="color:#79242F; opacity:0.35; font-size:14px;">Start spelling...</span>
+      </sc-if>
+      <sc-for list="{{ foundWordChips }}" as="chip">
+        <div class="word-chip" style="{{ chip.style }}">{{ chip.label }}</div>
+      </sc-for>
+    </div>
+  </div>
+
+  <div style="margin-top:12px; font-size:12px; color:#79242F; opacity:0.45; text-align:center; line-height:1.6;">
+    Letters: {{ outerLine }} + <strong style="color:#EB5E54; opacity:1;">{{ center }}</strong> (center)<br>
+    4 letters = 1 pt · longer words = 1 pt per letter · Pangram uses all 7 letters
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="">
+class Component extends DCLogic {
+
+  // Hex layout positions (top-left, container 228x220)
+  HEX_POSITIONS = [
+    { i: 0, left: 38,  top: 0   },
+    { i: 1, left: 114, top: 0   },
+    { i: 2, left: 0,   top: 66  },
+    { i: 3, left: 76,  top: 66, isCenter: true },  // E always here
+    { i: 4, left: 152, top: 66  },
+    { i: 5, left: 38,  top: 132 },
+    { i: 6, left: 114, top: 132 },
+  ];
+
+  DEFAULT = /*DEFAULT*/{"start": null, "title": "PT Month Spelling Bee", "banner": "Happy National Physical Therapy Month! 🍂 Here's to our PTs and PTAs.", "center": "E", "outer": ["S", "T", "R", "N", "G", "H"], "words": ["ERRS", "GENE", "GENT", "GETS", "GHEE", "HENS", "HERE", "HERS", "NEST", "NETS", "RENT", "REST", "SEEN", "SEER", "SEES", "SENT", "SETS", "TEEN", "TEES", "TENS", "TENT", "TERN", "TEST", "THEE", "THEN", "TREE", "EGRET", "ENTER", "ESTER", "ETHER", "GEESE", "GENES", "GENRE", "GENTS", "GREEN", "GREET", "HENGE", "NESTS", "RENTS", "RESET", "RESTS", "SENSE", "SERGE", "SHEEN", "SHEER", "SHEET", "SNEER", "STEER", "STERN", "TEENS", "TEETH", "TENET", "TENSE", "TENTH", "TENTS", "TERNS", "TERSE", "TESTS", "THERE", "THESE", "THREE", "TREES", "TRESS", "EGRESS", "EGRETS", "ENTERS", "ENTREE", "ESTERS", "ETHERS", "GENRES", "GREENS", "GREETS", "NETHER", "REGENT", "REGRET", "RENEGE", "RENTER", "RESENT", "RESETS", "RETEST", "SEETHE", "SENSES", "SERENE", "SETTEE", "SETTER", "SHEETS", "SNEERS", "STEERS", "STERNS", "STREET", "STRESS", "TEETER", "TENETS", "TENSER", "TENSES", "TENTHS", "TERSER", "TESTER", "TETHER", "THESES", "THREES", "THRESH", "TSETSE", "ENTREES", "GREENER", "REENTER", "REGENTS", "REGRESS", "REGRETS", "RENEGES", "RENTERS", "RESENTS", "RETESTS", "SEETHES", "SETTEES", "SETTERS", "STREETS", "TEETERS", "TENSEST", "TESTERS", "TETHERS", "ETHERNET", "GREENEST", "REENTERS", "STERNEST", "STRESSES", "TERSEST", "STRENGTH", "STRENGTHS", "STRENGTHEN", "STRENGTHENS", "STRENGTHENER"]}/*END*/;
+  SCHEDULE = /*SCHEDULE*/[{"start": "2026-10-26", "title": "Fall Fun Spelling Bee", "banner": "Happy Halloween! 🎃 However you spend it, enjoy a fun fall week.", "center": "T", "outer": ["C", "E", "M", "O", "S", "U"], "words": ["COST", "CUTE", "CUTS", "MEET", "MOST", "MUST", "MUTE", "OUTS", "SECT", "SETS", "STEM", "TEST", "TOES", "TOME", "TOOT", "TOSS", "TOTE", "TOUT", "COMET", "COSTS", "MEETS", "MOTTO", "SCOOT", "SCOUT", "STEMS", "STOUT", "TESTS", "TOTEM", "COMETS", "CUSTOM", "ESTEEM", "SCOUTS", "UTMOST", "COMMUTE", "COSTUME", "CUSTOMS", "OUTCOME", "COSTUMES", "OUTCOMES"]}, {"start": "2026-11-02", "title": "Rest & Recovery Spelling Bee", "banner": "Clocks fall back 11/1. Use the extra hour to rest! Happy Diwali (11/8) to all who celebrate. 🪔", "center": "L", "outer": ["B", "E", "M", "R", "S", "U"], "words": ["BELL", "BLUE", "BLUR", "BULB", "BULL", "EELS", "ELSE", "LESS", "LURE", "MULE", "REEL", "RULE", "SELL", "BELLS", "BLESS", "BLUES", "BULBS", "BULLS", "MULES", "REBEL", "REELS", "RULER", "RULES", "SELLS", "SMELL", "BUBBLE", "EMBLEM", "LESSER", "LUMBER", "REBELS", "RUBBLE", "RUBLES", "RULERS", "RUMBLE", "SELLER", "SMELLS", "BUBBLES", "MUMBLES", "RUMBLES", "SELLERS", "SLUMBER", "USELESS", "RESEMBLE", "BUMBLEBEE", "RESEMBLES"]}, {"start": "2026-11-09", "title": "Bladder Health Month Spelling Bee", "banner": "November is Bladder Health Month. 💧 And thank you to the veterans on our team and those we care for (Veterans Day, 11/11).", "center": "D", "outer": ["A", "E", "H", "R", "T", "Y"], "words": ["DARE", "DART", "DATE", "DEAR", "DEED", "DEER", "DYED", "DYER", "EDDY", "EYED", "HARD", "HEAD", "HEED", "HERD", "READ", "REED", "YARD", "ADDED", "AHEAD", "DARED", "DATED", "DETER", "DRYER", "HARDY", "HEARD", "RADAR", "RATED", "READY", "TRADE", "TREAD", "ADHERE", "DREARY", "HARDER", "HEADED", "HEADER", "HEATED", "READER", "THREAD", "TRADED", "TRADER", "HEARTED", "HYDRATE", "TREATED", "HYDRATED", "RETREATED", "DEHYDRATED"]}, {"start": "2026-11-16", "title": "Friends & Gratitude Spelling Bee", "banner": "Friendsgiving week! 🧡 Thank a teammate who made your week easier.", "center": "F", "outer": ["D", "E", "I", "N", "R", "S"], "words": ["FEED", "FEES", "FEND", "FERN", "FINE", "FINS", "FIRE", "FREE", "REEF", "FEEDS", "FIEND", "FINDS", "FINED", "FINER", "FINES", "FIRED", "FIRES", "FREED", "FRIED", "FRIES", "REFER", "DEFEND", "DEFINE", "DIFFER", "FEEDER", "FENDER", "FINDER", "FRIEND", "REFERS", "REFINE", "DEFENSE", "DEFINED", "DEFINES", "DIFFERS", "FINESSE", "FRIENDS", "REFEREE", "REFINED", "DEFENDED", "DEFENDER", "DEFENSES", "DEFENDERS"]}, {"start": "2026-11-23", "title": "The Holiday Table Spelling Bee", "banner": "Happy Thanksgiving (11/26) to those celebrating! 🥧 Running a Turkey Trot? Warm up first.", "center": "I", "outer": ["F", "G", "N", "S", "T", "U"], "words": ["FIGS", "FINS", "FIST", "FITS", "GIFT", "SIGN", "SING", "SINS", "SITS", "SUIT", "UNIT", "FISTS", "GIFTS", "SIGNS", "SINGS", "STIFF", "STING", "SUING", "SUITS", "UNFIT", "UNITS", "USING", "INNING", "INSIST", "STINGS", "TUNING", "FITTING", "INNINGS", "INSISTS", "ISSUING", "SIGNING", "SINGING", "SITTING", "STUFFING", "STUNNING", "INSISTING"]}, {"start": "2026-11-30", "title": "Desk & Posture Spelling Bee", "banner": "Check your setup this week: screen at eye level, feet supported, and a stretch break every hour. 💻", "center": "T", "outer": ["A", "D", "G", "I", "N", "S"], "words": ["ANTS", "SITS", "TAGS", "DIGIT", "GIANT", "SAINT", "SATIN", "STAIN", "STAND", "STING", "ASSIST", "ATTAIN", "DATING", "DIGITS", "GIANTS", "INSIST", "SAINTS", "STAINS", "STANDS", "STINGS", "AGAINST", "DISTANT", "INSISTS", "INSTANT", "SITTING", "STAGING", "STATING", "TANNING", "TASTING", "STANDING", "ASSISTANT", "ASSISTING", "INSISTING", "ASSISTANTS", "INITIATING"]}, {"start": "2026-12-07", "title": "Breathe Easy Spelling Bee", "banner": "Busy season? Take three slow belly breaths. 🌬️ Happy Hanukkah (12/4 to 12/12) to all who celebrate.", "center": "B", "outer": ["A", "E", "H", "R", "S", "T"], "words": ["BABE", "BARE", "BASE", "BASS", "BATH", "BATS", "BEAR", "BEAT", "BEES", "BEST", "BETA", "BETS", "HERB", "STAB", "TABS", "BABES", "BASES", "BATHE", "BATHS", "BEARS", "BEAST", "BEATS", "BEETS", "BRASS", "HERBS", "SABER", "BARBER", "BATTER", "BEARER", "BEASTS", "BETTER", "BREATH", "BREATHE", "BREATHS", "BREATHER", "BREATHES", "HEARTBEAT"]}, {"start": "2026-12-14", "title": "Growing Families Spelling Bee", "banner": "Celebrating every path to parenthood and the care teams who support it. 👶", "center": "N", "outer": ["A", "E", "P", "R", "S", "T"], "words": ["ANTE", "ANTS", "EARN", "NEAR", "NEAT", "NEST", "NETS", "PANE", "PANS", "PANT", "PENS", "RANT", "RENT", "SANE", "SEEN", "SENT", "SNAP", "SPAN", "TEEN", "TENS", "TENT", "ARENA", "ASPEN", "EARNS", "EATEN", "ENTER", "NESTS", "PANTS", "RENTS", "SENSE", "SNAPS", "SPANS", "SPENT", "STERN", "TEENS", "TENSE", "TENTS", "ENTERS", "NEARER", "PARENT", "PATENT", "RESENT", "SENATE", "SENSES", "SERENE", "TANNER", "TENANT", "ANTENNA", "EARNEST", "EASTERN", "NEAREST", "PARENTS", "PARTNER", "PATENTS", "PATTERN", "PRESENT", "TENANTS", "ANTENNAS", "APPARENT", "PARTNERS", "PATTERNS", "PRESENTS", "PRESENTER", "REPRESENT", "REPRESENTS", "TRANSPARENT"]}, {"start": "2026-12-21", "title": "Winter Lights Spelling Bee", "banner": "Happy solstice (12/21)! 🕯️ Wishing everyone a warm season, however and wherever you celebrate.", "center": "C", "outer": ["A", "D", "E", "L", "N", "S"], "words": ["CALL", "CANE", "CANS", "CASE", "CELL", "CLAD", "CLAN", "LACE", "SCAN", "CALLS", "CANAL", "CASES", "CEASE", "CELLS", "CLANS", "CLASS", "CLEAN", "DANCE", "LANCE", "SCALE", "SCANS", "SCENE", "ACCESS", "ASCEND", "CALLED", "CANCEL", "CANDLE", "CANNED", "CEASED", "CLEANS", "DANCED", "DANCES", "DECADE", "SCALED", "SCALES", "SCENES", "CANDLES", "CASCADE", "CLASSES", "CLEANED", "CLEANSE", "DECADES", "DESCEND", "ESSENCE", "SCANDAL", "ACCESSED", "CANCELED", "DESCENDED"]}, {"start": "2026-12-28", "title": "Year of Wins Spelling Bee", "banner": "Here's to every patient milestone of 2026, big and small. 🎉 Happy New Year!", "center": "B", "outer": ["A", "C", "E", "L", "R", "T"], "words": ["ABLE", "BABE", "BALE", "BALL", "BARE", "BEAR", "BEAT", "BELL", "BELT", "BETA", "CRAB", "BRACE", "CABLE", "LABEL", "REBEL", "TABLE", "BALLET", "BARBER", "BARREL", "BATTER", "BATTLE", "BEARER", "BETTER", "TABLET", "BRACELET", "CEREBRAL", "CELEBRATE"]}, {"start": "2027-01-04", "title": "New Habits Spelling Bee", "banner": "New year, small steps. 🌱 Our favorite resolution is doing the home program.", "center": "T", "outer": ["A", "E", "I", "M", "O", "V"], "words": ["ATOM", "ITEM", "MATE", "MEAT", "MEET", "TAME", "TEAM", "TIME", "TOME", "TOOT", "TOTE", "VETO", "VOTE", "MATTE", "MOTTO", "TOTEM", "MOTIVE", "TATTOO", "IMITATE", "MOTIVATE", "TEAMMATE"]}, {"start": "2027-01-11", "title": "Core 101 Spelling Bee", "banner": "Your core is a team: diaphragm, deep abs, back muscles and pelvic floor. 💪", "center": "L", "outer": ["A", "B", "I", "S", "T", "Y"], "words": ["ALLY", "BAIL", "BALL", "LABS", "LAST", "LAYS", "LIST", "SAIL", "SALT", "SLAB", "SLAY", "SLIT", "TAIL", "TALL", "TILL", "TILT", "ATLAS", "BASIL", "BLAST", "BLISS", "LASTS", "LISTS", "SAILS", "SALTS", "SALTY", "SILLY", "STALL", "STILL", "TAILS", "TALLY", "BLASTS", "LASTLY", "STALLS", "STILLS", "ABILITY", "STYLIST", "LIABILITY", "STABILITY"]}, {"start": "2027-01-18", "title": "Healing & Recovery Spelling Bee", "banner": "Honoring Dr. Martin Luther King Jr. (1/18), a day of service. 🤝 Here's to the care we give every day.", "center": "L", "outer": ["A", "E", "G", "H", "I", "N"], "words": ["GALA", "GALE", "GLEE", "GLEN", "HAIL", "HALE", "HALL", "HEAL", "HEEL", "HILL", "LANE", "LEAN", "LIEN", "LINE", "NAIL", "AGILE", "ALGAE", "ALIEN", "ALIGN", "ANGEL", "ANGLE", "EAGLE", "LEGAL", "LINEN", "INHALE", "LINING", "HEALING", "LEANING", "LINEAGE", "GIGGLING", "INHALING"]}, {"start": "2027-01-25", "title": "Bones & Balance Spelling Bee", "banner": "Icy sidewalk or sunny trail, sturdy shoes and good balance help everywhere. 🦴", "center": "N", "outer": ["E", "K", "L", "O", "S", "T"], "words": ["KEEN", "KNEE", "KNOT", "LENS", "LENT", "LONE", "NEON", "NEST", "NETS", "NONE", "NOON", "NOSE", "NOTE", "ONES", "ONTO", "SEEN", "SENT", "SONS", "SOON", "TEEN", "TENS", "TENT", "TONE", "TONS", "KNEEL", "KNEES", "KNOTS", "NESTS", "NOSES", "NOTES", "ONSET", "SENSE", "STONE", "TEENS", "TENSE", "TENTS", "TOKEN", "TONES", "KENNEL", "LENSES", "LESSON", "LOOSEN", "SENSES", "STOLEN", "STONES", "TOKENS", "LESSONS", "NONSENSE", "SKELETON", "SKELETONS"]}, {"start": "2027-02-01", "title": "Heart Month Spelling Bee", "banner": "February is American Heart Month and Black History Month. ❤️ Happy Lunar New Year (2/6)!", "center": "N", "outer": ["A", "G", "I", "K", "L", "W"], "words": ["AKIN", "GAIN", "GANG", "KING", "LAWN", "LINK", "NAIL", "WING", "WINK", "AGAIN", "AGING", "ALIGN", "INNING", "LIKING", "LINING", "WAKING", "GAINING", "LINKING", "NAGGING", "WAILING", "WALKING", "WILLING", "WINNING", "GIGGLING"]}, {"start": "2027-02-08", "title": "Self-Care & Kindness Spelling Bee", "banner": "Love yourself, love your crew. 💌 Happy Valentine's (and Galentine's) Day!", "center": "W", "outer": ["A", "E", "H", "R", "S", "T"], "words": ["SAWS", "STEW", "SWAT", "THAW", "WARE", "WARS", "WASH", "WEAR", "WERE", "WEST", "WHAT", "WHEE", "WHEW", "AWARE", "STRAW", "SWEAT", "SWEET", "THREW", "TWEET", "WASTE", "WATER", "WEARS", "WHEAT", "WHERE", "STRAWS", "SWEATS", "SWEETS", "WASHER", "WASHES", "WASTES", "WATERS", "WREATH", "SWEATER", "SWEETER", "WEATHER", "WHEREAS", "WHETHER", "SWEATERS", "SWEETHEART", "SWEETHEARTS"]}]/*END*/;
+  WEEK = this.pickWeek();
+  CENTER = this.WEEK.center;
+  ALL_LETTERS = [this.WEEK.center, ...this.WEEK.outer];
+  OUTER_INIT = [...this.WEEK.outer];
+  ALL_WORDS = this.WEEK.words;
+
+  // Weekly rotation: the last entry whose Monday (viewer's local date) has arrived wins.
+  // Before the first entry the October puzzle (DEFAULT) shows; after the last, the last week stays up.
+  // Preview any day with ?date=YYYY-MM-DD.
+  pickWeek() {
+    let today;
+    try {
+      const p = new URLSearchParams(window.location.search).get('date');
+      if (p && /^\d{4}-\d{2}-\d{2}$/.test(p)) today = p;
+    } catch (e) { /* no location in this context */ }
+    if (!today) {
+      const d = new Date();
+      today = new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+    }
+    let pick = this.DEFAULT;
+    for (const w of this.SCHEDULE) if (w.start <= today) pick = w;
+    return pick;
+  }
+
+  RANKS = [
+    { name: 'Warm-Up',       pct: 0    },
+    { name: 'First Rep',     pct: 0.05 },
+    { name: 'Moving Up',     pct: 0.08 },
+    { name: 'Good Form',     pct: 0.15 },
+    { name: 'Solid Core',    pct: 0.25 },
+    { name: 'Strong',        pct: 0.40 },
+    { name: 'Stronger',      pct: 0.50 },
+    { name: 'Personal Best', pct: 0.70 },
+    { name: 'PT Superstar',  pct: 0.99 },
+    { name: 'Queen Bee',     pct: 1.00 },
+  ];
+
+  state = {
+    currentWord: '',
+    foundWords: [],
+    outerOrder: [...this.OUTER_INIT],
+    flash: null,
+  };
+
+  _maxScore = null;
+  _flashTimer = null;
+
+  componentDidMount() {
+    document.addEventListener('keydown', this.handleKey);
+  }
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this.handleKey);
+    if (this._flashTimer) clearTimeout(this._flashTimer);
+  }
+
+  handleKey = (e) => {
+    if (e.key === 'Enter')     { this.submitWord(); return; }
+    if (e.key === 'Backspace') { this.deleteLetter(); return; }
+    if (e.key === ' ')         { this.shuffle(); return; }
+    const l = e.key.toUpperCase();
+    if (this.ALL_LETTERS.includes(l)) this.addLetter(l);
+  };
+
+  addLetter(l) {
+    this.setState(s => ({ currentWord: s.currentWord + l }));
+  }
+  deleteLetter() {
+    this.setState(s => ({ currentWord: s.currentWord.slice(0, -1) }));
+  }
+  shuffle() {
+    this.setState(s => {
+      const o = [...s.outerOrder];
+      for (let i = o.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [o[i], o[j]] = [o[j], o[i]];
+      }
+      return { outerOrder: o };
+    });
+  }
+
+  showFlash(msg, type = 'error') {
+    if (this._flashTimer) clearTimeout(this._flashTimer);
+    const styles = {
+      error:   { bg: '#FFDECF', color: '#79242F' },
+      success: { bg: '#EB5E54', color: '#FCEEE5' },
+      pangram: { bg: '#B5693A', color: '#FCEEE5' },
+      info:    { bg: '#79242F', color: '#FCEEE5' },
+    };
+    const s = styles[type] || styles.error;
+    this.setState({ flash: { msg, bg: s.bg, color: s.color } });
+    this._flashTimer = setTimeout(() => this.setState({ flash: null }), 1800);
+  }
+
+  submitWord() {
+    const word = this.state.currentWord.toUpperCase();
+    this.setState({ currentWord: '' });
+    if (word.length < 4) { this.showFlash('Too short!'); return; }
+    if (!word.includes(this.CENTER)) { this.showFlash('Missing center letter!'); return; }
+    for (const l of word) if (!this.ALL_LETTERS.includes(l)) { this.showFlash('Bad letters!'); return; }
+    if (this.state.foundWords.includes(word)) { this.showFlash('Already found!', 'info'); return; }
+    if (!this.ALL_WORDS.includes(word)) { this.showFlash('Not in word list!'); return; }
+    const pts = this.scoreWord(word);
+    const isPangram = new Set(word.split('')).size === 7;
+    this.showFlash(isPangram ? `Pangram! +${pts} 💪` : `+${pts}`, isPangram ? 'pangram' : 'success');
+    this.setState(s => ({ foundWords: [...s.foundWords, word] }));
+  }
+
+  scoreWord(word) {
+    const base = word.length === 4 ? 1 : word.length;
+    const isPangram = new Set(word.split('')).size === 7;
+    return base + (isPangram ? 7 : 0);
+  }
+
+  getMaxScore() {
+    if (!this._maxScore) this._maxScore = this.ALL_WORDS.reduce((s, w) => s + this.scoreWord(w), 0);
+    return this._maxScore;
+  }
+
+  getRank(score) {
+    const pct = score / this.getMaxScore();
+    let rank = this.RANKS[0];
+    for (const r of this.RANKS) { if (pct >= r.pct) rank = r; }
+    return rank;
+  }
+
+  renderVals() {
+    const { currentWord, foundWords, outerOrder, flash } = this.state;
+
+    const score = foundWords.reduce((s, w) => s + this.scoreWord(w), 0);
+    const maxScore = this.getMaxScore();
+    const rank = this.getRank(score);
+    // Rank progress: fraction within current rank band
+    const pct = score / maxScore;
+    const rankPct = Math.min(100, parseFloat((pct * 100).toFixed(1)));
+
+    // Outer letters mapped to positions 0,1,2,4,5,6 (position 3 = center E)
+    const outerSlots = [0, 1, 2, 4, 5, 6];
+    const hexCells = this.HEX_POSITIONS.map((pos, idx) => {
+      const isCenter = !!pos.isCenter;
+      const letter = isCenter ? this.CENTER : outerOrder[outerSlots.indexOf(idx)];
+      return {
+        letter,
+        isCenter,
+        textColor: isCenter ? '#FCEEE5' : '#79242F',
+        onClick: () => this.addLetter(letter),
+        style: {
+          position: 'absolute',
+          left: pos.left + 'px',
+          top: pos.top + 'px',
+          width: '76px',
+          height: '88px',
+          background: isCenter ? '#EB5E54' : '#FFDECF',
+          clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        },
+      };
+    });
+
+    const currentLetters = currentWord.split('').map(l => ({
+      letter: l,
+      color: l === this.CENTER ? '#EB5E54' : '#79242F',
+    }));
+
+    const pangramFound = foundWords.some(w => new Set(w.split('')).size === 7);
+
+    const foundWordChips = [...foundWords].sort().map(w => {
+      const isPangram = new Set(w.split('')).size === 7;
+      const display = w.charAt(0) + w.slice(1).toLowerCase();
+      return {
+        label: isPangram ? display + ' ✦' : display,
+        style: {
+          padding: '4px 12px',
+          borderRadius: '100px',
+          fontSize: '13px',
+          fontWeight: '600',
+          fontFamily: "'DM Sans', sans-serif",
+          background: isPangram ? '#EB5E54' : '#FFDECF',
+          color: isPangram ? '#FCEEE5' : '#79242F',
+          letterSpacing: '0.2px',
+        },
+      };
+    });
+
+    return {
+      title: this.WEEK.title,
+      banner: this.WEEK.banner,
+      outerLine: this.WEEK.outer.join(' · '),
+      center: this.CENTER,
+      score,
+      rank: rank.name,
+      rankPct,
+      hexCells,
+      currentLetters,
+      showCursor: currentWord.length === 0,
+      showFlash: !!flash,
+      flashMsg: flash ? flash.msg : '',
+      flashBg: flash ? flash.bg : '#FFDECF',
+      flashColor: flash ? flash.color : '#79242F',
+      foundWordChips,
+      foundCount: foundWords.length,
+      noWordsFound: foundWords.length === 0,
+      showPangramHint: !pangramFound,
+      onDelete: () => this.deleteLetter(),
+      onEnter: () => this.submitWord(),
+      onShuffle: () => this.shuffle(),
+    };
+  }
+}
+</script>
+
+
+</body></html>
